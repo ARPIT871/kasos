@@ -34,10 +34,10 @@ jobs:
       - name: Install project
         run: npm install
 
-      # # Build project
-      # - name: Build project
-      #   run: |
-      #     npm run gh-pages-build
+      # Build project
+      - name: Build project
+        run: |
+          npm run gh-pages-build
       #     echo "sunny.is-a.dev" > dist/CNAME
 
       # # Copy vercel.json to gh-pages branch
